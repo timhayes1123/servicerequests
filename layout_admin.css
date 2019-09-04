@@ -1,0 +1,323 @@
+body, html {
+    margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+a:link {
+    color: DarkOrchid;
+}
+
+.label {
+    text-align: right;
+}
+
+.centerbuttons {
+    text-align: center;
+}
+
+.listbox {
+    width: 30%;
+}
+
+.subCatSelect {
+    width: 100%;
+}
+
+#pagelinks ul{
+    list-style: none;
+}
+
+#pagelinks li{
+    display: inline;
+    padding: 2px 5px 2px 5px;
+}
+
+.pageedit {
+    text-align: left;
+    font-size: 12px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: normal;
+}
+
+th, td.subcatfield {
+    width: 25%;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: normal;
+}
+
+#viewdd {
+    text-align: right;
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: normal;
+}
+
+.currency {
+    text-align: right;
+}
+
+.subcattable {
+    width: 100%;
+}
+
+#viewtable {
+    width: 100%;
+}
+
+table#catalogview {
+    width: 100%;
+}
+
+.namefield {
+    width: 250px;
+}
+
+.longfield {
+    width: 650px;
+}
+
+.shortfield {
+    width: 75px;
+}
+
+div#divider {
+    width: 95%;
+    height: 1px;
+    background-color: DarkOrchid;
+}
+
+.layout {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+.cart {
+    color: Blue;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+.error {
+    color: Red;
+    text-align: left;
+    font-size: 11px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+table#customerform {
+    width: 100%;
+}
+
+table.invoice {
+    width: 100%;
+}
+
+td.invfield {
+    width: 20%;
+}
+
+td.catalogfield {
+    width: 25%;
+}
+
+#contentcontainer {
+	min-height: 100%;
+	position: relative;
+}
+
+img.prodview {
+    max-height: 400px;
+    max-width: 600px;
+}
+
+img.catalogthumb {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+div.leftnav {
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    color: DarkOrchid;
+    vertical-align:top;
+}
+
+div.subcats {
+    margin-left: 40px;
+    display: none;
+}
+
+div#leftnavtitle {
+    text-align: center;
+}
+
+div#shoppingcarttitle {
+    text-align: center;
+    color: White;
+    background-color: Blue;
+}
+
+.address {
+    color: black;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+.instructions {
+    color: blue;
+    font-style: bold;
+    font-size: 16px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+.navlink {
+    color: blue;
+    font-style: normal;
+    font-size: 14px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+}
+
+div#titlebar {
+    background-color: #eeeeee;
+    color: DarkOrchid;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 36px;
+    font-family: "Freeserif", "serif";
+}
+
+.notice {
+    color: red;
+}
+
+div.artistic {
+    color: DarkOrchid;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Freeserif", "serif";
+}
+
+div#header {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 175px;
+    width: 100%;
+    background-color: #eeeeee;
+    border-spacing: 0px;
+}
+
+div#rightnav {
+    
+    position: absolute;
+    top: 180px;
+    width: 15%;
+    right: 0%;
+    height: 150px;
+    text-align: center;
+}
+
+div#leftnav {
+    position: absolute;
+    top: 180px;
+    width: 15%;
+    left: 2px;
+    height: 150px;
+    vertical-align:top;
+    border-spacing: 0px;
+    border: 1px solid black;
+}
+
+div#leftcontent {
+    
+    position: absolute;
+    
+    top: 180px;
+    width: 15%;
+    left: 2px;
+    height: 600px;
+    background-color: #eeeeee;
+
+}
+
+div#rightcontent {
+    
+    position: absolute;
+    
+    top: 332px;
+    width: 15%;
+    right: 0%;
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+div#centerpanel {
+    position
+    left: 16%;
+    top: 180px;
+    width: 68%;
+    padding-bottom: 75px;
+    border: 1px solid black;
+}
+
+div#maincontentpane {
+    position: absolute;
+    left: 16%;
+    top: 180px;
+    width: 84%;
+    padding-bottom: 75px;
+}
+
+table.searchresults {
+    border-spacing: 0px;
+    border: 1px solid darkgray;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td.searchresults {
+    border: 1px solid darkgray;
+    padding: 2px;
+    text-align: left;
+    font-size: 12px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: normal;
+}
+
+td.altsearchresults {
+    background-color: gainsboro;
+    border: 1px solid darkgray;
+    padding: 2px;
+    text-align: left;
+    font-size: 12px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: normal;
+}
+
+td.searchresultshdr {
+    background-color: slategray;
+    border: 1px solid darkgray;
+    padding: 2px;
+}
+
+.searchresultsheader {
+    text-align: left;
+    font-size: 14px;
+    font-family: "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-style: bold;
+    color: white;
+}
+
+div.dataentry {
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10pt;
+    width: 90%;
+    background-color: #eeeeee;
+}
